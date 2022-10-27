@@ -1,12 +1,10 @@
-* {
-  box-sizing: border-box;
-}
-.body {
+.form-conta {
   margin: 0;
   padding: 3vh;
 
   background-color: black;
   height: 100vh;
+  color: aliceblue;
 }
 
 @media (min-width: 960px) {

@@ -45,5 +45,12 @@ function contacto(el) {
     </div>
   </section>
 </div>`;
-  const formel = contactoEl.querySelector(".form-conta");
+
+  const form = contactoEl.querySelector(".form-conta");
+  form.addEventListener("submin", function (e) {
+    e.preventDefault();
+    console.log("el form");
+  });
+
+  el.appendChild(contactoEl);
 }

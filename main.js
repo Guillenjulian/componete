@@ -1,4 +1,4 @@
-(function main() {
-  const container = document.querySelector(".container");
-  contacto(container);
-})();
+function main() {
+  contacto(document.querySelector(".form-container"));
+}
+main();
