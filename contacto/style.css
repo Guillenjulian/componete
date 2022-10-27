@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+.body {
+  margin: 0;
+  padding: 3vh;
+
+  background-color: black;
+  height: 100vh;
+}
+
+@media (min-width: 960px) {
+  .body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.from {
+  align-items: center;
+  padding: 5vh;
+}
